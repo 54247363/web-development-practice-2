@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-dark: #070a12;
+  --clr-light: #f1f5f9;
+  --clr-accent: #e11d48;
+  --clr-lightRose: #fb7185;
+  --clr-green: #4ade80;
+  --clr-sky: #38bdf8;
+  --clr-pink: #f472b6;
+  --clr-violet: #a78bfa;
+  --clr-yellow: #facc15;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+.sticky {
+  width: 100px;
+  height: 100px;
+  background-color: var(--clr-lightRose);
+  position: fixed;
+  bottom: 0px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(4, 150px);
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-light);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.item-1 {
+  background-color: var(--clr-lightRose);
+  position: fixed;
+  right: 0px;
+  height: 100%;
+  top: 0px;
+  width: 5%;
+  z-index: 1;
+}
+.menu {
+    position: fixed;
+    top: 0px;
+    font-size: 380%;
+
+}
+.blob1{
+    position: relative;
+    z-index: -1;
+    opacity: 90%;
+    top: -20%;
+    right: 230%;
+    height: 400%;
+}
+.blob2{
+    position: relative;
+    z-index: -3;
+    opacity: 90%;
+    top: -15%;
+    right: 210%;
+    height: 350%;
+}
+.pic{
+    width: 2100;
+    position: relative;
+    z-index: -1;
+    right: 15%;
+}
+.ss{
+    max-width: 200%;
+}
+.item-2 {
+  position: sticky;
+  left: 40px;
+  top: 30px;
+}
+.image-1{
+    height: 400%;
+    position: absolute;
+    z-index: -1;
+}
+.profile-box{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.profile{
+    position: sticky;
+}
+.item-3 {
+  background-color: var(--clr-yellow);
+}
+
+.item-4 {
+  background-color: var(--clr-green);
+}
+
+.item-5 {
+  background-color: var(--clr-violet);
+}
+
+.item-6 {
+  background-color: var(--clr-pink);
+}
+
+.item-7 {
+  background-color: var(--clr-lightRose);
+}
+
+.item-8 {
+  background-color: var(--clr-sky);
+}
+
+.item-9 {
+    position: sticky;
+    left: 40px;
+    top: 30px;
+}
+.image-3{
+    height: 400%;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    z-index: -1;
+}
+.item-10 {
+  background-color: var(--clr-yellow);
+}
+
+.item-11 {
+  background-color: var(--clr-violet);
+}
+
+.item-12 {
+  background-color: var(--clr-pink);
+}
